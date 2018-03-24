@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="HelloWorld">
+    <head>
+        <title>Calculating Name Value</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="javascript" src="../libs/angular.min.js"></script>
+        <script language="javascript" src="../libs/calNameValue.js"></script>
+    </head>
+    <body ng-controller="HelloWC">
+        <h1>Hello World</h1>
+        
+        <input type="text" ng-model="name" ng-keyup="displayNum();">
+        <p>Hello {{name}}</p>
+        <p>Length of name {{len}}</p>
+        <p>Total Numeric value of person's name is {{value}}</p>
+
+    </body>
+</html>

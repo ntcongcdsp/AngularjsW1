@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="HelloWorld">
+    <head>
+        <title>Calculating Name Value</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="javascript" src="../libs/angular.min.js"></script>
+        <script language="javascript" src="../libs/Sum2Num.js"></script>
+    </head>
+    <body ng-controller="Sum2Num">
+        <h1>Hello World</h1>
+        
+        <input type="number" ng-model="num1" ng-keyup="displaySum();">
+        <input type="number" ng-model="num2" ng-keyup="displaySum();">
+        <p>Total 2 number is {{total}}</p>
+
+    </body>
+</html>
